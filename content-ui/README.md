@@ -1,4 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Content Creation UI
+
+Interfaccia utente moderna per il sistema di creazione contenuti basato su AI. Questa applicazione fornisce un'interfaccia intuitiva per interagire con il nostro sistema multi-agente di generazione contenuti.
+
+## 🚀 Tecnologie
+
+- **Next.js 15** - Framework React per la produzione
+- **TypeScript** - Tipizzazione statica per JavaScript
+- **Tailwind CSS** - Framework CSS utility-first
+- **@tailwindcss/forms** - Plugin Tailwind per styling dei form
+
+## 📁 Struttura del Progetto
+
+```
+content-ui/
+├── pages/           # Route pages
+├── components/      # Componenti React riutilizzabili
+├── styles/         # File CSS e configurazioni Tailwind
+├── public/         # Asset statici
+└── types/          # Definizioni TypeScript
+```
+
+## 🛠️ Setup & Installazione
+
+1. **Clona il repository e installa le dipendenze**
+   ```bash
+   git clone <repository-url>
+   cd content-ui
+   npm install
+   ```
+
+2. **Avvia il server di sviluppo**
+   ```bash
+   npm run dev
+   ```
+   L'applicazione sarà disponibile su [http://localhost:3000](http://localhost:3000)
+
+## 🔧 Configurazione
+
+- `tailwind.config.js` - Configurazione Tailwind CSS
+- `styles/globals.css` - Stili globali e direttive Tailwind
+- `tsconfig.json` - Configurazione TypeScript
+
+## 📦 Dipendenze Principali
+
+- `next`: ^15.1.7
+- `react`: ^18
+- `react-dom`: ^18
+- `typescript`: ^5
+- `tailwindcss`: ^3
+- `@tailwindcss/forms`: ^0.5
+
+## 🤝 Contribuire
+
+1. Fai il fork del progetto
+2. Crea il tuo branch (`git checkout -b feature/AmazingFeature`)
+3. Committa i tuoi cambiamenti (`git commit -m 'Add some AmazingFeature'`)
+4. Pusha sul branch (`git push origin feature/AmazingFeature`)
+5. Apri una Pull Request
+
+## 📝 Note
+
+- Assicurati di avere Node.js 18+ installato
+- Usa `npm run build` per la build di produzione
+- Controlla `package.json` per altri script disponibili
+
+## 📄 Licenza
+
+Distribuito sotto licenza MIT. Vedi `LICENSE` per maggiori informazioni.
 
 ## Getting Started
 
