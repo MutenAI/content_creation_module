@@ -20,6 +20,21 @@ content_creation_module/
 
 ## 🛠️ Setup & Installation
 
+### Automated Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone <repository-url>
+   cd content_creation_module
+   ```
+
+2. **Run the Setup Script**
+   ```bash
+   ./setup.sh
+   ```
+
+### Manual Setup
+
 1. **Clone the Repository**
    ```bash
    git clone <repository-url>
@@ -32,15 +47,34 @@ content_creation_module/
    source venv/bin/activate
    ```
 
-3. **Install Dependencies**
+3. **Install Python Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the Test Script**
-   Use the full path to the virtual environment's Python to ensure the correct interpreter is used:
+4. **Navigate to the `content-ui` Directory**
    ```bash
-   ./venv/bin/python tests/test_web_searcher.py
+   cd content-ui
+   ```
+
+5. **Install Node.js Dependencies**
+   ```bash
+   npm install
+   ```
+
+6. **Create the `app` Directory**
+   ```bash
+   mkdir -p app
+   ```
+
+7. **Install Missing Modules**
+   ```bash
+   npm install autoprefixer
+   ```
+
+8. **Run the Development Server**
+   ```bash
+   npm run dev
    ```
 
 ## 🔧 Troubleshooting
