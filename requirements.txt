@@ -1,0 +1,13 @@
+crewai>=0.102.0
+langchain>=0.3.19
+tavily-python>=0.5.1
+openai>=1.63.2
+anthropic>=0.46.0
+airtable-python-wrapper>=0.15.3
+requests>=2.32.3
+python-dotenv>=1.0.1
+fastapi>=0.115.8
+uvicorn>=0.34.0
+pytest>=8.0.0
+pytest-asyncio>=0.23.5
+python-json-logger>=2.0.7 

@@ -1,0 +1,1 @@
+import os,requests;from dotenv import load_dotenv;load_dotenv();key=os.getenv('TAVILY_API_KEY');print('Test Tavily API:',end=' ');r=requests.post('https://api.tavily.com/search',headers={'Authorization':f'Bearer {key}'},json={'query':'test','search_depth':'basic'});print('[OK]' if r.status_code==200 else f'[ERRORE] {r.status_code}')

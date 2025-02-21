@@ -1,0 +1,1 @@
+import os,requests;from dotenv import load_dotenv;load_dotenv();key=os.getenv('AIRTABLE_API_KEY');base=os.getenv('AIRTABLE_BASE_ID');table=os.getenv('AIRTABLE_TABLE_NAME');print('Test Airtable API:',end=' ');r=requests.get(f'https://api.airtable.com/v0/{base}/{table}',headers={'Authorization':f'Bearer {key}'});print('[OK]' if r.status_code==200 else f'[ERRORE] {r.status_code}')

@@ -1,0 +1,1 @@
+import os,requests;from dotenv import load_dotenv;load_dotenv();key=os.getenv('OPENAI_API_KEY');print('Test OpenAI API:',end=' ');r=requests.get('https://api.openai.com/v1/models',headers={'Authorization':f'Bearer {key}'});print('[OK]' if r.status_code==200 else f'[ERRORE] {r.status_code}')
